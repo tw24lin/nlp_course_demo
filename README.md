@@ -1,51 +1,27 @@
-# 專案名稱 (Project Title)：[請填寫您的系統名稱，例如：校園智慧問答系統]
+# NLP 自然語言處理 (115 S1) - 課程專案
 
-> **作者 (Author):** [學號] [姓名]
+本專案為明志科技大學 NLP 課程開發環境與實作練習區。
 
-> **課程 (Course):** [填寫課程名稱與學期]
+---
 
-## 專案簡介 (Overview)
-[請用 2-3 句話描述本系統的目標。例如：本專案旨在建立一個基於 RAG (Retrieval-Augmented Generation) 架構的校園問答系統，自動解析學校規章與 PDF 文件，並透過大型語言模型提供精準的問答服務。]
+## 🧑‍💻 開發者資訊 (Developer Info)
+* **學號**：[請在此填寫真實學號]
+* **姓名**：[請在此填寫真實姓名]
 
-## 專案結構 (Repository Structure)
-* `data/` : 存放原始與預處理後的文字資料（受 `.gitignore` 控管，不予上傳本地大型檔案）。
-* `notebooks/` : 存放 NLP 實驗、資料探索與模型驗證的 Jupyter 筆記本。
-* `output/` : 存放模型評估報表、視覺化圖檔與測試產出。
-* `src/` : 存放可重複使用的 Python 模組與期末 Web 應用程式 (如 Streamlit) 原始碼。
-* `AI_USAGE.md` : AI 協作、生成錯誤與人工除錯日誌。
+## 🖥️ 硬體與環境狀態 (Environment Setup)
+* **PyTorch 執行環境**：[請填寫您安裝的狀態：Windows CUDA 12.1 / Mac Default / Windows CPU]
 
-## 技術架構 (Tech Stack)
-* **資料處理 (Data Processing):** [例如：Pandas, pdfplumber, jieba]
-* **機器學習與模型 (ML & Models):** [例如：PyTorch, scikit-learn, Hugging Face Transformers]
-* **應用部署 (Deployment):** [例如：Streamlit]
+---
 
-## 環境建置 (Installation)
+## ✅ 課程任務清單 (Task Checklist)
 
-1. **複製專案 (Clone the repository):**
-   ```bash
-   git clone https://github.com/your-username/your-repo-name.git
-   cd your-repo-name
-2. **建立虛擬環境 (Set up virtual environment):**
+### Week 1：開發環境與專案架構初始化
+請在完成下列任務後，將 `[ ]` 改為 `[x]`：
+- [ ] 成功建立 GitHub 帳號並 Clone 本專案至本機端。
+- [ ] 成功建立 `.venv` 虛擬環境，並透過 `.gitignore` 隱藏底層檔案。
+- [ ] 成功於虛擬環境內安裝通用套件清單 (`requirements.txt`) 與專屬硬體版本的 PyTorch。
+- [ ] 更新本 README 文件，填寫學號、姓名與 PyTorch 環境狀態。
+- [ ] 成功使用 Git 完成 `commit` 並 `push` 同步至 GitHub 雲端。
 
-   建議使用 Python 3.11 或 3.12 確保套件相容性
 
-   ```bash
-    python -m venv .venv
-
-    # Windows 系統請執行:
-    .venv\Scripts\activate
-   
-    # Mac/Linux 系統請執行:
-    source .venv/bin/activate
-   ```
-4. **安裝相依套件 (Install dependencies):**
-   ```bash
-   pip install -r requirements.txt
-   ```
-## 執行方式 (Usage)
-
-- **資料分析與探索 (Data Exploration)**
-  ```bash
-  jupyter notebook
-  ```
 
